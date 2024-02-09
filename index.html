@@ -7,79 +7,105 @@
 <html>
 
 <head>
-	<title>Eliott Crancée</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+    <title>Eliott Crancée</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
 </head>
 
 <body class="is-preload">
 
-	<!-- Wrapper -->
-	<div id="wrapper" class="fade-in">
-        
-		<!-- Intro -->
-		<div id="intro">
-			<h1>Eliott Crancée</h1>
-			<h2>Engineering student in AI - Centrale Méditerranée</h2>
-			<p>
-				Artificial intelligence is the mirror through which humanity tends
-				towards reality, <br />
-				reflecting our genius and dilemmas in a digital echo
-			</p>
-			<ul class="actions">
-				<li>
-					<a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
-				</li>
-			</ul>
-		</div>
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
 
-		<!-- Header -->
-		<header id="header">
-			<a href="index.html" class="logo">Eliott Crancée</a>
-		</header>
+        <!-- Intro -->
+        <div id="intro">
+            <h1>Eliott Crancée</h1>
+            <h2>Engineering student in AI - Centrale Méditerranée</h2>
+            <p>
+                Artificial intelligence is the mirror through which humanity tends
+                towards reality, <br />
+                reflecting our genius and dilemmas in a digital echo
+            </p>
+            <ul class="actions">
+                <li>
+                    <a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
+                </li>
+            </ul>
+        </div>
 
-		<!-- Nav -->
-		<nav id="nav">
-			<ul class="links">
-				<li class="active"><a href="index.html">Featured Projects</a></li>
-				<li><a href="about.html">About Me</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-			<ul class="icons">
-				<li>
-					<a href="https://www.linkedin.com/in/eliott-crancee/" class="icon brands fa-linkedin"><span
-							class="label">LinkedIn</span></a>
-				</li>
-				<li>
-					<a href="https://github.com/eliottcrancee" class="icon brands fa-github"><span
-							class="label">GitHub</span></a>
-				</li>
-			</ul>
-		</nav>
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Eliott Crancée</a>
+        </header>
 
-		<!-- Main -->
-		<div id="main">
-			<!-- Featured Post -->
-			<article class="post featured">
-				<header class="major">
-					<span class="date">January 2024</span>
-					<h2>Work in progress ...</h2>
-					<p>
-						I'm currently working on some personal projects. <br />
-						I will publish them here when they are ready for release.
-					</p>
-				</header>
-			</article>
-		</div>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Featured Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="icons">
+                <li>
+                    <a href="https://www.linkedin.com/in/eliott-crancee/" class="icon brands fa-linkedin"><span
+                            class="label">LinkedIn</span></a>
+                </li>
+                <li>
+                    <a href="https://github.com/eliottcrancee" class="icon brands fa-github"><span
+                            class="label">GitHub</span></a>
+                </li>
+            </ul>
+        </nav>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<section>
-				<h3>Emails</h3>
+        <!-- Main -->
+        <div id="main">
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <span class="date">January 2024</span>
+                    <h2 style="text-transform: none;">ParoleNet</h2>
+                </header>
+                <p>
+                    ParoleNet is a multimodal model for predicting turn-taking. Its main objective is to determine, at
+                    the end of a given sentence, whether the person currently speaking will continue to speak or yield
+                    the floor to their interlocutor. It takes as input the last 20 words of the sentence as well as the
+                    final two seconds of the audio recording and performs classification on two turn-taking classes.
+                </p>
+                <span class="image fit"><img src="images/schema.png" alt="" /></span>
+                <p>
+                    ParoleNet has been trained on a specific dataset of the French language containing 16,400 sentences.
+                    We have observed encouraging results, where the model has learned to anticipate turn-taking with
+                    performance superior to a randomly initialized model. Analysis of the statistical results suggests
+                    that the model is capable of understanding a relationship between the input data and the prediction
+                    of turn-taking, rather than merely a statistical prediction based on the frequency of each class
+                    uncorrelated with the input data. These observations indicate significant learning by the model,
+                    thereby reinforcing the validity of our approach.
+                </p>
+                <ul class="actions">
+                    <li><a href="https://github.com/eliottcrancee/SAM_Project" class="button">Source Code</a></li>
+                </ul>
+            </article>
+
+            <article class="post">
+                <header class="major">
+                    <span class="date">February 2024</span>
+                    <h2>Work in progress ...</h2>
+                    <p>
+                        I'm currently working on some personal projects. <br />
+                        I will publish them here when they are ready for release.
+                    </p>
+                </header>
+            </article>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section>
+                <h3>Emails</h3>
                 <ul>
                     <a href=""
                         onclick="copyToClipboard('crancee.eliott.pro@gmail.com')">crancee.eliott.pro@gmail.com</a>
@@ -87,53 +113,53 @@
                     <a href=""
                         onclick="copyToClipboard('eliott.crancee@centrale-med.fr')">eliott.crancee@centrale-med.fr</a>
                 </ul>
-			</section>
-			<section class="split">
-				<section>
-					<h3>Social</h3>
-					<ul class="icons alt">
-						<li>
-							<a href="https://www.linkedin.com/in/eliott-crancee/" class="icon brands fa-linkedin"><span
-									class="label">LinkedIn</span></a>
-						</li>
-						<li>
-							<a href="https://github.com/eliottcrancee" class="icon brands fa-github"><span
-									class="label">GitHub</span></a>
-						</li>
-					</ul>
-				</section>
-			</section>
-		</footer>
+            </section>
+            <section class="split">
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li>
+                            <a href="https://www.linkedin.com/in/eliott-crancee/" class="icon brands fa-linkedin"><span
+                                    class="label">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/eliottcrancee" class="icon brands fa-github"><span
+                                    class="label">GitHub</span></a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
 
-		<!-- Copyright -->
-		<div id="copyright">
-			<ul>
-				<li>&copy; Crancée 2024</li>
-				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</div>
+        <!-- Copyright -->
+        <div id="copyright">
+            <ul>
+                <li>&copy; Crancée 2024</li>
+                <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </div>
 
-	</div>
+    </div>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 <script>
     function copyToClipboard(text) {
-      var dummy = document.createElement("textarea");
-      document.body.appendChild(dummy);
-      dummy.value = text;
-      dummy.select();
-      document.execCommand("copy");
-      document.body.removeChild(dummy);
-      alert("Copied the text: " + text);
+        var dummy = document.createElement("textarea");
+        document.body.appendChild(dummy);
+        dummy.value = text;
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+        alert("Copied the text: " + text);
     }
 </script>
 
